@@ -37,7 +37,7 @@ for k in range(0, 310):
         fil.write (str(y[k+1]))
         fil.write (" F50 \n")
 
-
+fil.write ("M30")
 fil.close()
 
 #for k in range(0,310)
